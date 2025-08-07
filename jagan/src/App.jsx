@@ -2,7 +2,9 @@ import Card from "./Card";
 import Student from "./Student";
 import UserGreetings from "./UserGreetings";
 import Button from "./Button";
-import HooksUseState from "./HooksUseState";
+import HooksUseState from "./HooksUseState"; 
+import ColourPicker from "./colorPicker.jsx";
+
 
 
 function App() {
@@ -16,8 +18,8 @@ function App() {
   <UserGreetings isLoged={false} name="Siri"/>
   <Button/>
   <HooksUseState/>
-  </>
-    
+  <ColourPicker/>
+</>    
    );
 }
 
