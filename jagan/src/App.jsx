@@ -1,6 +1,7 @@
 import Card from "./Card";
 import Student from "./Student";
 import UserGreetings from "./UserGreetings";
+import Button from "./Button";
 
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
   <Student name="Padma Sri" age={19} isStudent={false}/>
   <UserGreetings isLoged={true} name="Jagan"/>
   <UserGreetings isLoged={false} name="Siri"/>
+  <Button/>
   </>
     
    );
