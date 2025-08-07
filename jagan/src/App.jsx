@@ -2,6 +2,7 @@ import Card from "./Card";
 import Student from "./Student";
 import UserGreetings from "./UserGreetings";
 import Button from "./Button";
+import HooksUseState from "./HooksUseState";
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
   <UserGreetings isLoged={true} name="Jagan"/>
   <UserGreetings isLoged={false} name="Siri"/>
   <Button/>
+  <HooksUseState/>
   </>
     
    );
